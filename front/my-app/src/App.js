@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link, useParams } from "react-router-dom";
 
-const API = "https://student-record-backend.onrender.com"; // 🔗 your live backend URL
+const API = "https://student-record-app-backend.onrender.com"; // 🔗 your live backend URL
 
 function View() {
   const [students, setStudents] = useState([]);
